@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table and Form</title>
+</head>
+<body>
+    <h1>HTML Table and Form</h1>
+    <p><em>Creating data table and using form with
+         different types of inputs.</em></p>
+
+         <hr>
+
+         <table border="1">
+            
+            <thead>
+                <tr>
+                    <th colspan="2">Code</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        &lt;h1&gt;
+                    </td>
+                    <td>
+                        Headings 1-6
+                    </td>
+                    <td>
+                        Creates a strong text with large to small 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        &lt;p&gt;
+                    </td>
+                    <td>
+                        Paragraph
+                    </td>
+                    <td>
+                        Create simple text.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        &lt;hr&gt;
+                    </td>
+                    <td>
+                        Horizontal Line
+                    </td>
+                    <td>
+                        Add Horizontal Line with margin
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        &lt;br&gt;
+                    </td>
+                    <td>
+                        Breaks Line
+                    </td>
+                    <td>
+                        Break the line
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        &lt;strong&gt;
+                    </td>
+                    <td>
+                        Strong Font
+                    </td>
+                    <td>
+                        Add importants on the text
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        &lt;em&gt;
+                    </td>
+                    <td>
+                        Emphasis
+                    </td>
+                    <td>
+                        Emphasizing the text
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td align="center" colspan="3"><em>Basics HTML Codes</em></td>
+                </tr>
+            </tfoot>
+
+         </table>
+
+         <hr>
+
+         <h2>Registrartion Form</h2>
+         <p>Please Input correct details</p>
+
+         <br>
+
+         <form action="https://www.google.com/">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="number">Contact Number</label><br>
+            <input type="number" id="number" name="number"><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="gender">Select a Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="">---Select---</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select><br>
+
+            <br>
+
+            <label for="">Technologies I Use</label>
+            <input type="checkbox"><label for="">Git</label><br>
+            <input type="checkbox"><label for="">HTML</label><br>
+            <input type="checkbox"><label for="">CSS</label><br>
+            <input type="checkbox"><label for="">JS</label><br>
+            <input type="checkbox"><label for="">Bootstrap</label><br>
+            <input type="checkbox"><label for="">Express</label><br>
+            <input type="checkbox"><label for="">React</label><br>
+            <input type="checkbox"><label for="">Others</label><br>
+
+            <br>
+
+            <label for="notes">Notes</label><br>
+            <textarea name="notes" id="notes" rows="5"></textarea>
+
+            <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+
+         </form>
+
+</body>
+</html>
